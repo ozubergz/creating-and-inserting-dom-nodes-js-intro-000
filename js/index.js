@@ -8,7 +8,7 @@ element.style.textAlign = 'center'
 
 let ul = document.createElement('ul');
 for(let i = 0; i < 3; i++) {
-  let li = document.createElemen('li');
+  let li = document.createElement('li');
   li.innerHTML = (i + 1).toString();
   ul.appendChild(li)
 }
