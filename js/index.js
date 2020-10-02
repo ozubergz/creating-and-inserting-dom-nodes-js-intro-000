@@ -10,5 +10,5 @@ document.body.appendChild(element);
 let ul = document.createElement('ul');
 for(let i = 0; i < 3; i++) {
   let li = document.createElemen('li');
-  li.innerHTML
+  li.innerHTML = (i + )
 }
