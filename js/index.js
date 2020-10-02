@@ -5,7 +5,6 @@ element.innerHTML = 'Hello DOM!'
 element.style.backgroundColor = '#f9f9f9';
 element.style.textAlign = 'center'
 
-document.body.appendChild(element);
 
 let ul = document.createElement('ul');
 for(let i = 0; i < 3; i++) {
@@ -15,3 +14,5 @@ for(let i = 0; i < 3; i++) {
 }
 
 element.appendChild(ul)
+
+document.body.appendChild(element);
