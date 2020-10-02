@@ -14,5 +14,5 @@ for(let i = 0; i < 3; i++) {
   ul.appendChild(li)
 }
 
-ul.style.
+ul.style.textAlign = 'left'
 element.appendChild(ul)
