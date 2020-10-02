@@ -7,4 +7,4 @@ element.style.textAlign = 'center'
 
 document.body.appendChild(element);
 
-let 
+let ul = document.createElement('ul');
