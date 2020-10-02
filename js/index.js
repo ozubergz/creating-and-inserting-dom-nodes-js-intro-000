@@ -8,3 +8,6 @@ element.style.textAlign = 'center'
 document.body.appendChild(element);
 
 let ul = document.createElement('ul');
+for(let i = 0; i < 3; i++) {
+  
+}
