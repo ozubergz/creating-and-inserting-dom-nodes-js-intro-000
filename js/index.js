@@ -18,3 +18,5 @@ ul.style.textAlign = 'left'
 element.appendChild(ul)
 
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
+
+ul.remove();
